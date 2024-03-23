@@ -1,5 +1,5 @@
 <!--H1 header with Title -->
-# WEB 340 -  Introduction to NodeJS
+# WEB 340 NodeJS
 
 <!--H2 header for contributors  -->
 ## Contributors
