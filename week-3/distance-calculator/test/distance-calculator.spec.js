@@ -1,3 +1,4 @@
+"use strict";
 const assert = require('assert');
 const calculateDistance = require('../src/distance-calculator');
 

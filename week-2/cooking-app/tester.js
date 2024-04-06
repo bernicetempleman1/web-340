@@ -4,7 +4,7 @@
  * File Name: tester.js
  * This code was generated with the assistance of GitHub Copilot.
 */
-
+"use strict";
 // Try to import the student's module
 let recipes;
 try {

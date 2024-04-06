@@ -5,6 +5,8 @@
  * Description: Use the index.js file to demonstrate the functionality of your recipe modules
 */
 
+"use strict";
+
 // TODO: Import your module using require
 // Try to import the recipe module
 

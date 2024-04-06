@@ -4,7 +4,7 @@
  * File Name: recipe.js
  * Description: Recipe Modules: Contains functions: createRecipe, setTimer, and quit
  */
-
+"use strict";
 // Define the createRecipe function This function should take an array of ingredients and return:
 // “Recipe created with ingredients: ingredient1, ingredient2”
 function createRecipe(ingredients) {
