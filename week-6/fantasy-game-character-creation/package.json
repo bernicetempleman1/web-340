@@ -7,10 +7,15 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "jest"
   },
+  "jest": {
+    "verbose": true
+    },
+
   "keywords": [],
-  "author": "",
+  "author": "Bernice Templeman",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
