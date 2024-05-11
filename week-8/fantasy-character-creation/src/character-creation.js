@@ -37,7 +37,6 @@ const CHARACTER_FILE = join(__dirname, 'characters.txt'); // __dirname is the di
 
 //write data to a file
 function createCharacter(character, callback) {
-  console.log(typeof(character));
   const data = character +"\n";
   writeFile(CHARACTER_FILE, data, (err) => {
     callback(err);
