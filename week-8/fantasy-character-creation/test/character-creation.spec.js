@@ -10,6 +10,8 @@ const { get } = require('https');
   Author: Bernice Templeman
   Date: 05/09/2024
   Filename: character-creation.spec.js
+
+  Description: Currently this is testing Promises.
 */
 
 /**
@@ -90,7 +92,7 @@ describe('Character Creation Module', () => {
 
 
 // For promises:
-/* Uncomment code to test promises
+//* Uncomment code to test promises
 
 const fs = require('fs').promises;
 

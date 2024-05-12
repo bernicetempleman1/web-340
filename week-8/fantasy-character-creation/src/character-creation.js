@@ -25,6 +25,8 @@
  * 1. Uncomment the 'fs' require statement under the "For promises" comment.
  * 2. Uncomment the 'createCharacter' and 'getCharacters' functions under the "For promises" comment.
  * 3. Uncomment the 'module.exports' line under the "For promises" comment.
+ *
+ * Note: Description: Currently this is using Promises.
  */
 
 // For callbacks:
@@ -57,7 +59,7 @@ function getCharacters(callback) {
 // end callbacks*/
 
 // For promises:
-/* Uncomment
+//* Uncomment
 const fs = require('fs').promises;
 
 const { readFile, writeFile } = require('fs').promises;
@@ -87,4 +89,4 @@ async function getCharacters() {
 // Uncomment the appropriate exports depending on whether you're using callbacks or promises:
 
 // module.exports = { createCharacter, getCharacters }; // For callbacks
-// module.exports = { createCharacter, getCharacters }; // For promises
+module.exports = { createCharacter, getCharacters }; // For promises
