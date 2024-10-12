@@ -15,6 +15,49 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/appletouch-icon.png">
   <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+  <style>
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+   }
+    .card {
+      box-shadow: 0 4px 8px 0 navy;
+      transition: 0.3s;
+      width: 25%;
+      margin: 0.9em;
+      padding: 5px;
+    }
+
+
+    .card:hover {
+      box-shadow: 16px; rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 16px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   .button-link {
+     display: flex;
+
+     margin: 0 auto;
+     background-color: #008cba;
+     color: white;
+     padding: 15px 32px;
+     font-size: 16px;
+     height: 25px;
+     width: 100px;
+   }
+   .button-link:hover {
+     background-color:    #04aa6d; /* Green */
+     color: white;
+   }
+ </style>
 </head>
 <body>
   <div id="wrapper">
@@ -42,29 +85,159 @@
     <main>
 
       <!-- Section for Picture, goals, accomplishments, experience, education
-       <li><a href="./week-1/weight-converter">Weight Converter</a></li>
-          <li><a href="./week-2/cooking-app">Cooking App</a></li>
-          <li><a href="./week-3/distance-calculator">Distance Calculator</a></li>
-          <li><a href="./week-4/superhero-app">Superhero App</a></li>
-          <li><a href="./week-5/pie-baker">Pie Baker</a></li>
-          <li><a href="./week-6/fantasy-game-character-creation">Fantasy Game Character Creation</a></li>
-          <li><a href="./week-7/fantasy-character-creation-stream">Fantasy Character Creation Stream</a></li>
-          <li><a href="./week-8/fantasy-character-creation">Fantasy Character Creation</a></li>
-          <li><a href="./week-9/fantasy-game-characters">Fantasy Game Characters</a></li>
 
       -->
-      <section class="grid2">
 
-        <div>
-          <h2>Welcome to Bernice Templeman’s Node.js Projects.</h2>
+          <h2>Node.js Projects</h2>
+
+          <div class="centered">
+            <section class="cards">
+
+              <article class="card">
+                <img style="" src="./images/weight-converter.png" alt="weight converter" />
+                <h3>week-1: Weight Converter</h3>
+                <p>Description: Converts pounds to kilograms</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+              <article class="card">
+                <img style="" src="./images/cooking.png" alt="cooking app" />
+                <h3>week-2: Cooking App</h3>
+                <p>Description: Recipe Modules: Contains functions: createRecipe, setTimer, and quit.</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+              <article class="card">
+                <img
+                  style=""
+                  src="./images/distance.png"
+                  alt="Distance calculator"
+                />
+                <h3>week-3: Distance Calculator</h3>
+                <p>Description: calculate the distance between two planets.</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+              <article class="card">
+                <img style="" src="./images/superhero.png" alt="Superhero App" />
+                <h3>week-4: Superhero App</h3>
+                <p>Description: SuperheroEmitter class that extends EventEmitter and implements the following methods: performAction, encounterDanger, and helpSomeone</p>
+                <p>Technologies:Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+              <article class="card">
+                <img style="" src="./images/pie.png" alt="MongoDB projections" />
+                <h3>week-5: Pie Baker</h3>
+                <p>Description: module that simulates a simple pie baker.</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+              <article class="card">
+                <img
+                  style=""
+                  src="./images/server.png"
+                  alt="HTTP server"
+                />
+                <h3>week-6: Fantasy Game Character Creator</h3>
+                <p>Description: HTTP Server for character creation</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a
+              >
+              </article>
+              <article class="card">
+                <img style="" src="./images/class.png" alt="class" />
+                <h3>week-7: Fantasy Character Creation</h3>
+                <p>Description: create a CharacterCreator class that extends the
+                  Duplex stream class from Node.js’s built-in stream module.</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+              <article class="card">
+                <img style="" src="./images/callbacks-promises.png" alt="callbacks or promises.png" />
+                <h3>week-8: Character Creation</h3>
+                <p>Description: This file allows you to choose between using callbacks or promises (async/await) for handling asynchronous operations</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+              <article class="card">
+                <img
+                  style=""
+                  src="./images/child-process.png"
+                  alt="child process"
+                />
+                <h3>week-9: Fantasy game characters</h3>
+                <p>Description: GameCharacters class that retrieves and processes data from a separate JavaScript file using Node.js child processes.
+                  This class will have a getCharacters method that spawns a child process to run a script,
+                  captures the data it sends back, and passes this data to a callback function..</p>
+                <p>Technologies: Node.js</p>
+                <p>Learned: Node.js</p>
+                <a
+                href="https://github.com/bernicetempleman1/web-340"
+                class="button-link"
+                target="_blank"
+                >GitHub repo</a>
+              </article>
+
+
+
+            </section>
+          </div>
+
+
+
+
+
+
+
 
           <a href='https://github.com/bernicetempleman1/web-340'>GitHub repository</a></li>
-
-
-
-        </div>
-      </section>
-
 
     </main>
 
